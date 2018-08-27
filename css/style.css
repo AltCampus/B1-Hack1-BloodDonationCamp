@@ -277,9 +277,6 @@ h2 {
 
 /********MAIN***********/
 
-main {
-    color: white;
-}
 
 .home--info{
     height: 40vh;
@@ -313,7 +310,7 @@ main {
 
 main {
     height: 100vh;
-    background: #D46A6A;
+    color: white;
 }
 
 .hero {
