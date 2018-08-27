@@ -57,12 +57,20 @@ table {
 	margin: 0;
 	padding: 0;
 }
-h1{
+main h1{
 	font-family: 'Kosugi Maru', sans-serif;
 	text-align: center;
 	font-size: 45px;
 	color: #AA3939;
 	font-weight: 700;
+	margin-top: 50px;
+}
+main h2{
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+	margin: 20px 0 0 20px;
 }
 h3{
 	font-family: 'Kosugi Maru', sans-serif;
@@ -73,8 +81,7 @@ h3{
 span{
 	font-size: 18px;
 	color: orange;
-	text-align: right;
-	float: right;
+
 }
 
 .wrapper{
@@ -139,21 +146,15 @@ nav a:hover{
     border-bottom: 2px solid white;
 }
 
-h1 {font-size: 3rem;
+.hero h1 {
+	font-size: 3rem;
     font-weight: bold;
     font-family: sans-serif;
     padding: 1rem;
+    color: black;
 }
 
-    font-size: 3rem;
-    font-weight: bold;
-    font-family: sans-serif;
-    padding: 1rem;
-}
-main {
-    height: 100vh;
-    background: #D46A6A;
-}
+   
 footer {
     height: 25vh;
     background: #AA3939;
