@@ -1,3 +1,4 @@
+
 /* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
   License: none (public domain)
 */
@@ -62,4 +63,106 @@ iframe{
 	.col-1-2{
 		width: 100%;
 	}
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/*header*/
+
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    background: #AA3939;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 69%, 80% 100%, 20% 100%, 0 69%, 0 0);
+    max-height: 30vh;
+}
+.hero{
+    display: flex;
+    padding: 2rem;
+}
+header img {
+    height: 4rem;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav li {
+    padding: 2rem;
+    font-size: 1.3rem;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    padding: .2rem;
+    transition: border-bottom .3s ease;
+}
+nav a:hover{
+    color:whitesmoke;
+    border-bottom: 2px solid white;
+}
+
+h1 {font-size: 3rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 1rem;
+}
+
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 1rem;
+}
+main {
+    height: 100vh;
+    background: #D46A6A;
+}
+footer {
+    height: 25vh;
+    background: #AA3939;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 31%, 100% 100%, 80% 100%, 20% 100%, 0 100%, 0 33%);
+    color:white;
+}
+footer nav ul {
+    
+}
+.links li{
+    display: inline-block;
+    font-size: 1.2rem; 
+    padding: 2rem;
+}
+.links a{
+    color: white;
+    padding: 0;
+}
+
+.btm__nav li{
+    font-size: .9rem;
+}
+.copy{
+    font-size: 1.2rem;
 }
