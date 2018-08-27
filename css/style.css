@@ -79,7 +79,8 @@ nav a:hover{
     border-bottom: 2px solid white;
 }
 
-h1 {font-size: 3rem;
+h1 {
+    font-size: 3rem;
     font-weight: bold;
     font-family: sans-serif;
     padding: 1rem;
@@ -118,4 +119,57 @@ footer nav ul {
 }
 .copy{
     font-size: 1.2rem;
+}
+
+
+
+
+/*  Registration */
+.section{
+    display:grid;
+    grid-template-columns:400px;
+    justify-content: center;
+    grid-gap: 10px;
+    margin: 70px 0px;
+}
+form{
+    display: grid;
+    grid-template-rows: repeat(7,auto);
+    grid-gap: 10px;
+    width:100%;
+    font-size: 20px;
+    color: white;
+    padding:10px;
+}
+.head{
+    
+    text-align: center;
+    font-family: sans-serif;
+    }
+button{
+    width: 50%; 
+    height: 100%;
+    margin:0 auto;
+    background-color: #AA3939;
+}
+
+label {
+    color: #414141;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 25px;
+
+}
+
+input {
+    padding: 10px;
+    border-radius: 3px;
+    border:none;
+    border-bottom: 2px solid #AA3939;
+}
+
+.btn {
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
 }
