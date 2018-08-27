@@ -27,198 +27,39 @@ time, mark, audio, video {
   box-sizing: border-box;
 }
 
-
 /* Embed Font */
-@import url('https://fonts.googleapis.com/css?family=Kosugi+Maru|Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Source+Sans+Pro:300');
 
-
-/* About Page CSS */
-
-.about_wrapper {
-    max-width : 960px;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.center {
-    text-align: center;
-}
-
-.about_main {
-    background: url(../images/about-back.jpg);
-    background-position: right;
-    background-repeat: no-repeat;
-    margin-bottom: 20%;
-}
-
-.about_header {
-    font-family: 'Kosugi Maru', sans-serif;
-    font-size: 45px;
-    color: #550000;
-}
-
-.about_section_header {
-    color: #AA3939;
-    font-family: 'Kosugi Maru', sans-serif;
-    font-size: 35px;
-}
-
-.about_section_header_para {
-    color: #755252;
-    font-family: sans-serif;
-    font-size: 25px;
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-
-.question_mark {
-    font-size: 45px;
-}
-
-.about_contact {
-    font-family: sans-serif;
-    text-decoration: none;
-    font-weight: bold;
-    color: #550000;
-}
-
-.about_contact:hover {
-    color: #AA3939;   
-}
-
-/* Team Section */
-
-.team_header {
-    font-size: 35px;
-}
-
-@media screen and (max-width : 950px) {
-    main {
-        padding: 1em;
-    }
-
-    .about_main {
-        background: transparent;
-    }
-
-}
-
-
-/*   ========================================
-             Contact Us
-     ========================================   */
-
-.contactus{
-	width: 70%;
-	margin: 0 auto;
-}
-.contactus h1{
-	font-size: 30px;
-	color:#550000;
-	font-weight: 800;
-	text-align: center;
-	margin: 40px 0;
-}
-.contactus h2{
-	font-size: 20px;
-	color: #AA3939;
-}
-.contactus p{
-	font-size: 15px;
-}
-iframe{
-	margin: 50px 0 60px 0;
-	width: 100%;
-}
-.row{
-	margin: 20px 0;
-	width: 100%;
-}
-.col-1-2{
-	margin: 10px 0 10px 15%;
-	width: 35%;
-	float: left;
-	text-align: left;
-}
-@media screen and (max-width: 580px){
-	.col-1-2{
-		width: 100%;
-	}
-}
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    font-family: 'Source Sans Pro';
+    font-size: 1rem;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 
-/*~~~~~~~~~~~~~~`main.css~~~~~~~~~~~~~~*/
 
-main h1{
-	font-family: 'Kosugi Maru', sans-serif;
-	text-align: center;
-	font-size: 45px;
-	color: #AA3939;
-	font-weight: 700;
-	margin-top: 50px;
-}
-main h2{
-	font-size: 30px;
-	text-align: center;
-	font-weight: bold;
-	text-decoration: underline;
-	margin: 20px 0 0 20px;
-}
-h3{
-	font-family: 'Kosugi Maru', sans-serif;
-	font-size: 25px;
-	padding:20px;
-	color: #D46A6A;
-}
-span{
-	font-size: 18px;
-	color: orange;
-
-}
-
-.wrapper{
-	margin: 50px auto;
-	width: 80%;
-	display: grid;
-	grid-template-columns: 33% 33% 33%;
-	
-}
-.wrapper img{
-	width: 90%;
-	height: 90%;
-}
-.videos{
-	margin: 50px auto;
-	width: 80%;
-}
-.videos iframe{
-	margin-left: 20px;
-	width: 30%;
-}
 
 
 /*header*/
@@ -254,7 +95,6 @@ nav li {
 nav a {
     text-decoration: none;
     color: white;
-    font-family: sans-serif;
     padding: .2rem;
     transition: border-bottom .3s ease;
 }
@@ -266,21 +106,165 @@ nav a:hover{
 h1 {
     font-size: 3rem;
     font-weight: bold;
-    font-family: sans-serif;
     padding: 1rem;
+    color: #AA3939;
 }
 
 h2 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    font-family: 'Roboto Slab', sans-serif;
 }
+
+h3 {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 25px;
+    padding:20px;
+    color: #D46A6A;
+    text-align: center;
+}
+
+p {
+    color: white;
+    padding: 1rem;
+    font-family: 'Source Sans Pro';
+    font-size: 1.4rem;
+    line-height: 1.2;
+}
+
+
+/* About Page CSS */
+
+.about_wrapper {
+    max-width : 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.about_section_header_para {
+    color: #272727;
+}
+
+.question_mark {
+    font-size: 45px;
+}
+
+.about_contact {
+    text-decoration: none;
+    font-weight: bold;
+    color: #550000;
+}
+
+.about_contact:hover {
+    color: #AA3939;   
+}
+
+/* Team Section */
+
+.team_header {
+    font-size: 35px;
+}
+
+@media screen and (max-width : 950px) {
+    main {
+        padding: 1em;
+    }
+
+    .about_main {
+        background: transparent;
+    }
+
+}
+
+
+/*   ========================================
+             Contact Us
+     ========================================   */
+
+.contactus{
+	width: 70%;
+	margin: 0 auto;
+}
+.contactus h2{
+	font-size: 20px;
+	color: #AA3939;
+    text-align: left;
+    margin: 0px;
+    text-decoration: none;
+}
+.contactus p{
+	font-size: 15px;
+    color: #272727;
+    padding-left: 0px;
+}
+iframe{
+	margin: 50px 0 60px 0;
+	width: 100%;
+}
+.row{
+	margin: 20px 0;
+	width: 100%;
+}
+.col-1-2{
+	margin: 10px 0 10px 15%;
+	width: 35%;
+	float: left;
+	text-align: left;
+}
+@media screen and (max-width: 580px){
+	.col-1-2{
+		width: 100%;
+	}
+}
+
+
+/*~~~~~~~~~~~~~~`main.css~~~~~~~~~~~~~~*/
+
+main {
+    margin: 5rem 0;
+}
+
+main h2{
+	margin: 20px 0 0 20px;
+}
+
+span{
+	font-size: 18px;
+	color: orange;
+
+}
+
+.wrapper{
+	margin: 50px auto;
+	width: 80%;
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-gap: 2rem;
+}
+.wrapper img{
+	width: 100%;
+}
+.videos{
+	margin: 50px auto;
+	width: 80%;
+}
+.videos iframe{
+	margin-left: 20px;
+	width: 30%;
+}
+
+
 
 /********MAIN***********/
 
 
 .home--info{
     height: 40vh;
-    width: 50vw;
+    width: 70vw;
     margin: 5rem auto;
     position: relative;
     background: linear-gradient(rgba(87, 85, 85, 0.4),rgba(87, 85, 85, 0.4)),url(../assets/blood-camp.jpg) no-repeat;
@@ -290,9 +274,10 @@ h2 {
     font-size: 3rem;
     font-weight: bold;
     position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translate(0%,-50%);
 }
 
 .home--content{
@@ -303,31 +288,35 @@ h2 {
     background: #550000b4;
     clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
 }
+.home--content h3 {
+    color: white;
+    font-size: 2.2rem;
+}
 .home--content p {
     padding: 1rem;
-    color: black;
-}
-
-main {
-    height: 100vh;
-    color: white;
+    margin: 3rem 0;
 }
 
 .hero {
     padding-bottom: 0;
 }
 
-.header_ul li  {
-    font-size : 0.9em
+.hero h1 {
+    color: #272727;
 }
 
 .content--reason{
     padding: 5rem;
     color:  black;
+    padding-bottom: 0rem;
+}
+.content--reason h3 {
+    font-size: 2.2rem;
 }
 .content--reason p {
-    font-size: 1.8rem;
     text-align: justify;
+    color: #272727;
+    margin: 3rem 0;
 }
 
 /*************FOOTER******************/
@@ -335,16 +324,16 @@ main {
 
 /* Footer */
 footer {
-    height: 20.7%;
     background: #AA3939;
     clip-path: polygon(20% 0%, 80% 0%, 100% 31%, 100% 100%, 80% 100%, 20% 100%, 0 100%, 0 33%);
-    color:white;
+    color: white;
+    padding: 2rem;
 }
 
 .links li{
     display: inline-block;
     font-size: 1.2rem; 
-    padding: 2rem;
+    padding: 0 2rem;
 }
 .links a{
     color: white;
@@ -352,17 +341,18 @@ footer {
 }
 
 .btm__nav li{
-    font-size: .9rem;
-}
-.copy{
     font-size: 1.2rem;
+    padding: 1.5rem;
 }
 
+.copy p{
+    font-size: 0.8rem;
+}
 
 /*  Registration */
 .section{
     display:grid;
-    grid-template-columns:400px;
+    grid-template-columns: .4fr;
     justify-content: center;
     grid-gap: 10px;
     margin: 70px 0px;
@@ -377,10 +367,8 @@ form{
     padding:10px;
 }
 .head{
-    
     text-align: center;
-    font-family: sans-serif;
-    }
+}
 button{
     width: 50%; 
     height: 100%;
@@ -392,21 +380,28 @@ label {
     color: #414141;
     text-align: left;
     margin-top: 10px;
-    font-size: 25px;
+    font-size: 1.2rem;
 
 }
 
 input {
     padding: 10px;
+    height: 1.44rem;
     border-radius: 3px;
+    background: transparent;
     border:none;
     border-bottom: 2px solid #AA3939;
+}
+
+::-webkit-input-placeholder {
+    font-size: 0.9rem;
 }
 
 .btn {
     padding: 10px;
     color: white;
     border-radius: 5px;
+    font-size: 1.5rem;
 }
 
 @media screen and (max-width : 450px) {
