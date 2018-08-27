@@ -1,0 +1,73 @@
+/* Embed Font */
+@import url('https://fonts.googleapis.com/css?family=Kosugi+Maru|Open+Sans+Condensed:300');
+
+
+/* About Page CSS */
+.about_wrapper {
+    max-width : 960px;
+    width: 100%;
+    margin: 5vh auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.about_main {
+    background: url(../images/about-back.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.about_header {
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size: 45px;
+    color: #550000;
+}
+
+.about_section_header {
+    color: #AA3939;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+
+.about_section_header_para {
+    color: #755252;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.question_mark {
+    font-size: 45px;
+}
+
+.about_contact {
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: #550000;
+}
+
+.about_contact:hover {
+    color: #AA3939;   
+}
+
+/* Team Section */
+.team_header {
+    font-size: 35px;
+}
+
+@media screen and (max-width : 850px) {
+    main {
+        padding: 1em;
+    }
+
+    .about_main {
+        background: transparent;
+    }
+
+
+}
+
+
