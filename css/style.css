@@ -1,9 +1,85 @@
+<<<<<<< HEAD
 /* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
   License: none (public domain)
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
+=======
+
+/* Embed Font */
+@import url('https://fonts.googleapis.com/css?family=Kosugi+Maru|Open+Sans+Condensed:300');
+
+
+/* About Page CSS */
+.about_wrapper {
+    max-width : 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.about_main {
+    background: url(../images/about-back.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-bottom: 20%;
+}
+
+.about_header {
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size: 45px;
+    color: #550000;
+}
+
+.about_section_header {
+    color: #AA3939;
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size: 35px;
+}
+
+.about_section_header_para {
+    color: #755252;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.question_mark {
+    font-size: 45px;
+}
+
+.about_contact {
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: #550000;
+}
+
+.about_contact:hover {
+    color: #AA3939;   
+}
+
+/* Team Section */
+.team_header {
+    font-size: 35px;
+}
+
+@media screen and (max-width : 950px) {
+    main {
+        padding: 1em;
+    }
+
+    .about_main {
+        background: transparent;
+    }
+
+}
+
+>>>>>>> origin/PKS-About
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -204,7 +280,20 @@ h1 {
     color: black;
 }
 
-   
+main {
+    height: 100vh;
+    background: #D46A6A;
+}
+
+.hero {
+    padding-bottom: 0;
+}
+
+.header_ul li  {
+    font-size : 0.9em
+}
+
+/* Footer */
 footer {
     height: 50%;
     background: #AA3939;
@@ -228,8 +317,6 @@ footer {
 .copy{
     font-size: 1.2rem;
 }
-
-
 
 
 /*  Registration */
@@ -282,3 +369,8 @@ input {
     border-radius: 5px;
 }
 
+@media screen and (max-width : 450px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+}
