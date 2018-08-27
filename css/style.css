@@ -1,6 +1,8 @@
-
 /* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
   License: none (public domain)
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -87,6 +89,68 @@ q:before, q:after {
 	content: none;
 }
 
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*~~~~~~~~~~~~~~`main.css~~~~~~~~~~~~~~*/
+
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+main h1{
+	font-family: 'Kosugi Maru', sans-serif;
+	text-align: center;
+	font-size: 45px;
+	color: #AA3939;
+	font-weight: 700;
+	margin-top: 50px;
+}
+main h2{
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+	margin: 20px 0 0 20px;
+}
+h3{
+	font-family: 'Kosugi Maru', sans-serif;
+	font-size: 25px;
+	padding:20px;
+	color: #D46A6A;
+}
+span{
+	font-size: 18px;
+	color: orange;
+
+}
+
+.wrapper{
+	margin: 50px auto;
+	width: 80%;
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	
+}
+.wrapper img{
+	width: 90%;
+	height: 90%;
+}
+.videos{
+	margin: 50px auto;
+	width: 80%;
+}
+.videos iframe{
+	margin-left: 20px;
+	width: 30%;
+}
+
+
 /*header*/
 
 
@@ -130,20 +194,17 @@ nav a:hover{
 
 h1 {
     font-size: 3rem;
-    font-weight: bold;
-    font-family: sans-serif;
-    padding: 1rem;
 }
 
-    font-size: 3rem;
+.hero h1 {
+	font-size: 3rem;
     font-weight: bold;
     font-family: sans-serif;
     padding: 1rem;
+    color: black;
 }
-main {
-    height: 100vh;
-    background: #D46A6A;
-}
+
+   
 footer {
     height: 50%;
     background: #AA3939;
@@ -220,3 +281,4 @@ input {
     color: white;
     border-radius: 5px;
 }
+
